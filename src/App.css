@@ -1,0 +1,21 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+* a:hover {
+  text-decoration: none;
+}
+
+::-moz-selection {
+  background: var(--mainhc);
+  color: #000;
+}
+
+::selection {
+  background: var(--mainhc);
+  color: #000;
+}

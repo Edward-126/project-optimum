@@ -1,0 +1,36 @@
+#footer {
+  background-color: #080808;
+  color: #fff;
+  padding: 1.3rem;
+}
+
+.footer-link {
+  color: var(--mainhc);
+  font-weight: 600;
+}
+
+.footer-link:hover {
+  color: var(--mainhc2);
+}
+
+.footer-socials {
+  font-size: 1.6rem;
+  transition: transform 0.3s;
+}
+
+.footer-socials-icon:hover {
+  color: var(--mainhc);
+  transition: color 0.3s;
+}
+
+@media screen and (min-width: 601px) {
+  .footer-small {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer-large {
+    display: none;
+  }
+}

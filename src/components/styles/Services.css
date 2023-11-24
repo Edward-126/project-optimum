@@ -1,0 +1,42 @@
+#services {
+  background-color: #080808;
+  color: #fff;
+  padding: 5rem 8%;
+}
+
+.services-card-container:hover .services-card {
+  box-shadow: 0 0 20px 5px #293038;
+}
+
+.services-card {
+  margin: 1rem 0rem;
+  max-height: 370px;
+  background-color: #22272e;
+  color: #ffffff;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+i.bx.bx-plus.bx-spin {
+  color: var(--mainhc);
+}
+
+.card-img-container {
+  overflow: hidden;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+.service-head {
+  color: #fff;
+}
+
+.service-content {
+  font-size: 1.2rem;
+}
+
+h5.card-title {
+  font-size: 1.5rem;
+}
