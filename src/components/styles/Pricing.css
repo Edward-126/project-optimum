@@ -1,8 +1,56 @@
 #pricing {
   background-color: #080808;
   color: #fff;
+  padding: 2rem 8%;
 }
 
-h1.display-4.fw-normal {
+/* .pricing-card-container:hover .pricing-card {
+  box-shadow: 0 0 20px 5px #293038;
+} */
+
+.pricing-card {
+  margin: 1rem 0rem;
+  max-height: 370px;
+  background-color: #22272e;
+  color: #ffffff;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.card-header {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.card-title {
+  margin: 0.1rem;
+}
+
+h1.pricing-head {
+  font-size: 3rem;
+  font-weight: 700;
   color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  h1.pricing-head {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+  }
+}
+
+.card-text2 {
+  font-size: 0.8rem;
+}
+
+.modal {
+  color: #fff;
+}
+
+h1#exampleModalLabel {
+  color: #fff;
+}
+
+.modal-content {
+  background-color: #22272e;
 }

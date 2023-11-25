@@ -52,7 +52,12 @@ export default function Navbar() {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#services">
-                  Services
+                  Programs
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#pricing">
+                  Pricing
                 </a>
               </li>
               <li className="nav-item">

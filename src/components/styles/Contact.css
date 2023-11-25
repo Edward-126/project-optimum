@@ -1,0 +1,89 @@
+#contact {
+  background-color: #080808;
+  padding: 2rem 8%;
+}
+
+.contact-info {
+  color: #fff;
+}
+
+iframe {
+  width: 100%;
+  height: 16rem;
+  padding: 1.2rem 1.2rem 1.2rem 0rem;
+}
+
+h1.contact-head {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.contact-body {
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+.form-floating:focus-within {
+  z-index: 2;
+}
+
+.float-lable {
+  font-size: 1rem;
+  margin-left: 5px;
+}
+
+.form-floating.col-12 {
+  padding: 0;
+}
+
+.form-floating.col-sm-6.name-first {
+  padding-left: 0;
+}
+
+.form-floating.col-sm-6.name-last {
+  padding-right: 0;
+}
+
+p.contact-body i {
+  color: var(--mainhc);
+}
+
+@media screen and (min-width: 600px) {
+  .col-sm-7.contact-form.uk-scrollspy-inview {
+    position: relative;
+  }
+
+  .sign-up {
+    position: absolute;
+    padding: 2rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1.contact-head {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  .contact-body {
+    font-size: 1.1rem;
+  }
+
+  .form-floating.col-sm-6 {
+    padding: 0;
+  }
+
+  iframe {
+    padding: 0.3rem;
+  }
+}
+
+.contact-btn {
+  height: 3.4rem;
+}

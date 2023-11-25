@@ -1,7 +1,7 @@
 #services {
   background-color: #080808;
   color: #fff;
-  padding: 5rem 8%;
+  padding: 2rem 8%;
 }
 
 .services-card-container:hover .services-card {
@@ -39,4 +39,18 @@ i.bx.bx-plus.bx-spin {
 
 h5.card-title {
   font-size: 1.5rem;
+}
+
+h1.service-head {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  h1.service-head {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+  }
 }
