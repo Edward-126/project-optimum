@@ -43,6 +43,10 @@ h1.pricing-head {
   font-size: 0.8rem;
 }
 
+.bg-op {
+  background-color: var(--mainhc);
+}
+
 .modal {
   color: #fff;
 }

@@ -9,6 +9,7 @@ export default [
     admissionFee: 0,
     time: "1 Day",
     description: "Access to a single session for a quick workout.",
+    isPopular: false,
   },
   {
     id: 3,
@@ -20,6 +21,7 @@ export default [
     admissionFee: 2000,
     time: "1 Month",
     description: "Pay on a monthly basis for access to gym facilities.",
+    isPopular: true,
   },
   {
     id: 2,
@@ -31,6 +33,7 @@ export default [
     admissionFee: 0,
     time: "6 Months",
     description: "Access to our facilities for six months with this package.",
+    isPopular: false,
   },
   {
     id: 1,
@@ -42,5 +45,6 @@ export default [
     admissionFee: 0,
     time: "1 Year",
     description: "An annual package for a full year of fitness benefits.",
+    isPopular: false,
   },
 ];
