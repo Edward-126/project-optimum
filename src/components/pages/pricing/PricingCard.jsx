@@ -11,14 +11,12 @@ export default function PricingCard(props) {
   return (
     <div className="col pricing-card-container position-relative">
       <div className="card pricing-card ">
-        <div className="card-header">
-          {props.title}{" "}
-          {props.isPopular && (
-            <span class="position-absolute top-0 start-10 translate-middle badge rounded-pill bg-op">
-              Popular
-            </span>
-          )}
-        </div>
+        {props.isPopular && (
+          <span class="position-absolute top-0 end-0 translate-middle badge rounded-pill bg-op">
+            Popular
+          </span>
+        )}
+        <div className="card-header">{props.title}</div>
         <div className="card-body">
           <p className="card-text1">{props.description}</p>
           <h5 className="card-title">Rs.{props.cardioGym}.00 </h5>
