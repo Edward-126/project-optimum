@@ -13,8 +13,15 @@ export default function About() {
             className="col-sm-5 about-item"
             uk-scrollspy-class="uk-animation-slide-left"
           >
-            <img className="about-img" src={coach} alt="MyPic" />
+            <div className="uk-inline">
+              <img className="about-img" src={coach} alt="MyPic" />
+              <div className="uk-overlay-primary uk-position-cover" />
+              <div className="uk-overlay uk-position-bottom uk-light">
+                <p>Coach's pic will go here.</p>
+              </div>
+            </div>
           </div>
+
           <div className="col-sm-7 about-item">
             <h1 className="sub-title">
               <i className="bx bxs-user"></i> About{" "}

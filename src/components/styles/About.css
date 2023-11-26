@@ -28,6 +28,10 @@
   transition: 0.5s;
 }
 
+.uk-overlay-primary.uk-position-cover.uk-scrollspy-inview {
+  border-radius: 15px;
+}
+
 .about-item {
   padding: 1rem;
 }
