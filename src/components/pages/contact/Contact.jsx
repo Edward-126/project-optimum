@@ -14,9 +14,9 @@ export default function Contact() {
               <i className="bx bxs-contact"></i> Contact Us
             </h1>
             <p className="contact-body">
-              <i className="bx bxs-phone-call"></i> (+94)71-8913548 <br />
-              <i className="bx bxl-whatsapp"></i> (+94)71-8913548 <br />
-              <i className="bx bxs-envelope"></i> rathnayaka3548@gmail.com{" "}
+              <i className="bx bxs-phone-call"></i> (+94)11-2411161 <br />
+              <i className="bx bxl-whatsapp"></i> (+94)77-3933114 <br />
+              <i className="bx bxs-envelope"></i> pereram52@gmail.com
               <br />
               <iframe
                 title="Google Map"
@@ -26,7 +26,6 @@ export default function Contact() {
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
             </p>
-            (Since I don't know the coach's contact info, I just put mine here.)
           </div>
           <div className="col-sm-7 contact-form">
             <ContactForm />
