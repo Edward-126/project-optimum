@@ -8,11 +8,11 @@ export default [
   //   image: "/src/assets/services/sc3.jpg",
   // },
   {
-    id: 2,
-    title: "Anaerobic Tuesday",
+    id: 3,
+    title: "Aerobic Tuesday",
     day: "Every Tuesday",
     description:
-      "Push your anaerobic threshold to the limit in our Anaerobic Power Hour. This high-intensity program focuses on short bursts of exercises to promote strength, speed, and power.",
+      "Elevate your heart rate and improve endurance with our Aerobic Tuesday session. This lively workout combines fun and fitness to boost cardiovascular health and leave you feeling invigorated.",
     image: "/src/assets/services/sc2.jpg",
   },
   {

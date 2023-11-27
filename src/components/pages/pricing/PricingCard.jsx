@@ -12,7 +12,7 @@ export default function PricingCard(props) {
     <div className="col pricing-card-container position-relative">
       <div className="card pricing-card ">
         {props.isPopular && (
-          <span class="position-absolute top-0 end-0 translate-middle badge rounded-pill bg-op">
+          <span className="position-absolute top-0 end-0 translate-middle badge rounded-pill bg-op">
             Popular
           </span>
         )}
@@ -36,6 +36,7 @@ export default function PricingCard(props) {
             <PricingModel
               id={props.id}
               title={props.title}
+              gymOnly={props.gymOnly}
               admissionFee={props.admissionFee}
               men={props.men}
               women={props.women}
