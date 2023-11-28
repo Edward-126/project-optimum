@@ -1,5 +1,5 @@
 import "../../styles/About.css";
-import coach from "../../../assets/coach.jpg";
+import coach from "../../../assets/coachV2.jpg";
 
 export default function About() {
   return (
