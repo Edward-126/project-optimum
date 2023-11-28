@@ -26,7 +26,7 @@ export default function PricingModel(props) {
           <div className="modal-body">
             <p>Admission Fee: Rs.{props.admissionFee}.00</p>
             <hr />
-            <p>Gents : Rs.{props.gymOnly}.00</p>
+            <p>Gents (Gym Only) : Rs.{props.gymOnly}.00</p>
             <p>Gents (Cardio & Gym) : Rs.{props.cardioGym}.00</p>
             <hr />
             <p>Ladies (Cardio & Gym) : Rs.{props.women}.00</p>
