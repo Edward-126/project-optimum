@@ -18,16 +18,22 @@ export default function Hero() {
         <div className="row">
           <div className="col">
             <p className="hero-text-1">
-              Unleash Your&nbsp;
+              Unleash Your &nbsp;
               <i className="bx bxs-chevrons-right"></i>{" "}
               <span className="main-c1">Potential</span> at{" "}
-              <span className="main-hc">Optimum</span>{" "}
-              <a href="#about">
-                <button className="t-btn op-button main-btn">See More</button>
-              </a>{" "}
-              Gym.
+              <span className="main-hc">Optimum</span> Gym. <br />
             </p>
             <p className="hero-sub-text">Where Fitness Meets Excellence</p>
+            <a href="#about" className="main-btn-cont">
+              <button className="t-btn op-button main-btn">
+                Discover More
+              </button>
+            </a>
+            <a href="#contact">
+              <button className="t-btn op-button main-btn1">
+                Resigter Now
+              </button>
+            </a>
 
             {/* <p className="hero-text-2">
               Elevate Your Fitness, Ignite Your Passion.

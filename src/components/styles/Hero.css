@@ -14,8 +14,7 @@
   line-height: 1.2;
 }
 
-.hero-text-1,
-.hero-text-2 {
+.hero-text-1 .hero-text-2 {
   margin: 0;
 }
 
@@ -27,17 +26,26 @@
 .hero-sub-text {
   font-size: 1.5rem;
   font-weight: 200;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 button.t-btn.op-button.main-btn {
   font-size: 1.2rem;
-  padding: 1.2rem;
-  border-radius: 1.5rem;
+  padding: 0.5rem 1.3rem;
+  margin: 1rem;
 }
 
-button.btn.op-button.main-btn {
+button.t-btn.op-button.main-btn1 {
   font-size: 1.2rem;
+  padding: 0.5rem 1.3rem;
+  margin: 1rem;
+  background-color: transparent;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+button.t-btn.op-button.main-btn1:hover {
+  background-color: var(--mainhc);
 }
 
 span.main-c1 {
@@ -62,11 +70,21 @@ span.main-c1 {
 
   button.t-btn.op-button.main-btn {
     font-size: 1.1rem;
-    padding: 1.07rem;
-    border-radius: 1.5rem;
+    padding: 0.5rem 1.3rem;
+    margin: 1rem;
   }
 
-  button.btn.op-button.main-btn {
-    font-size: 1rem;
+  button.t-btn.op-button.main-btn1 {
+    display: none;
+    font-size: 1.1rem;
+    padding: 0.5rem 1.3rem;
+    margin: 1rem;
+    background-color: transparent;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+
+  button.t-btn.op-button.main-btn1:hover {
+    background-color: var(--mainhc);
   }
 }
