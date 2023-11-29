@@ -12,7 +12,7 @@ export default function Hero() {
   return (
     <div
       className="container hero"
-      uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 500"
+      uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 300"
     >
       <div className="container text-center hero-text">
         <div className="row">

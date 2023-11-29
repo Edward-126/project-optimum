@@ -16,7 +16,7 @@ export default function Programs() {
     <div id="services">
       <div
         className="container"
-        uk-scrollspy="cls: uk-animation-fade; target: div; delay: 100; repeat: false"
+        uk-scrollspy="cls: uk-animation-fade; target: div; delay: 90; repeat: false"
       >
         <div className="row">
           <div className="col-sm-5">

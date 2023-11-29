@@ -6,7 +6,7 @@ export default function About() {
     <div id="about">
       <div
         className="container about-content"
-        uk-scrollspy="cls: uk-animation-fade; target: div; delay: 120; repeat: false"
+        uk-scrollspy="cls: uk-animation-fade; target: div; delay: 90; repeat: false"
       >
         <div className="row">
           <div

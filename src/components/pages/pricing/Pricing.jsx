@@ -11,7 +11,7 @@ export default function Pricing() {
     <div id="pricing">
       <div
         className="container"
-        uk-scrollspy="cls: uk-animation-fade; target: div; delay: 100; repeat: false"
+        uk-scrollspy="cls: uk-animation-fade; target: div; delay: 90; repeat: false"
       >
         <div className="text-start">
           <h1 className="pricing-head">

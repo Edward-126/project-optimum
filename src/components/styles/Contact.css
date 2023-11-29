@@ -50,7 +50,7 @@ p.contact-body i {
 }
 
 @media screen and (min-width: 600px) {
-  .col-sm-7.contact-form.uk-scrollspy-inview {
+  .col-sm-7.contact-form {
     position: relative;
   }
 

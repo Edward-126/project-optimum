@@ -4,10 +4,7 @@ import "../../styles/Contact.css";
 export default function Contact() {
   return (
     <div id="contact">
-      <div
-        className="container"
-        uk-scrollspy="cls: uk-animation-fade; target: div; delay: 120; repeat: false"
-      >
+      <div className="container">
         <div className="row">
           <div className="col-sm-5 contact-info">
             <h1 className="contact-head">
