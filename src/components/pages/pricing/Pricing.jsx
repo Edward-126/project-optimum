@@ -13,7 +13,7 @@ export default function Pricing() {
         className="container"
         uk-scrollspy="cls: uk-animation-fade; target: div; delay: 100; repeat: false"
       >
-        <div className="text-center">
+        <div className="text-start">
           <h1 className="pricing-head">
             <i className="bx bx-badge-check"></i> Membership Plans
           </h1>

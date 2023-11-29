@@ -16,7 +16,7 @@ export default function Contact() {
             <p className="contact-body">
               <i className="bx bxs-phone-call"></i> (+94)11-2411161 <br />
               <i className="bx bxl-whatsapp"></i> (+94)77-3933114 <br />
-              <i className="bx bxs-envelope"></i> pereram52@gmail.com
+              <i className="bx bxs-envelope"></i> optimumgym126@gmail.com
               <br />
               <iframe
                 title="Google Map"

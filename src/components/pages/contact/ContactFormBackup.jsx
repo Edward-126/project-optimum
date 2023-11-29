@@ -1,30 +1,46 @@
-import React from "react";
 import "../../styles/Contact.css";
+import React, { useState } from "react";
 
-const ContactForm = () => {
-  const sendEmail = (e) => {
-    e.preventDefault();
+export default function ContactForm() {
+  const [submitting, setSubmitting] = useState(false);
 
-    emailjs
-      .sendForm("service_sn4s2zf", "template_o2587mg", e.target)
-      .then((response) => {
-        console.log("Email sent successfully:", response);
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    setSubmitting(true);
 
-        alert("Registration Successful");
+    try {
+      const response = await fetch(
+        "https://script.google.com/macros/s/AKfycby5SCNDRlQPlYOhahzsTPWMHVFg11q1sVRE-9Z2RbcYIXhQEWmH_DYTpWebRutk_0NA/exec",
+        {
+          method: "POST",
+          body: new FormData(event.target),
+        }
+      );
 
-        window.location.reload();
-        window.location.href = "#contact";
-      })
-      .catch((error) => {
-        console.log("Error sending email:", error);
+      const data = await response.json();
 
-        alert("Registration Failed");
-      });
+      console.log("Data from server:", data);
+
+      if (data.result === "success") {
+        alert("Registration successful!");
+
+        setTimeout(() => {
+          window.location.href = "#contact";
+        }, 500);
+      } else {
+        alert("Registration failed. Please try again.");
+      }
+    } catch (error) {
+      console.error("Error:", error);
+      alert("An unexpected error occurred. Please try again.");
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   return (
     <div className="container align-items-center">
-      <form className="sign-up" onSubmit={sendEmail}>
+      <form className="sign-up" onSubmit={handleSubmit}>
         <img className="mb-3" src="" />
 
         <div className="row g-3">
@@ -34,7 +50,7 @@ const ContactForm = () => {
               id="floatingInput1"
               placeholder="name"
               type="text"
-              name="first_name"
+              name="FirstName"
               required
             />
             <label htmlFor="floatingInput1" className="float-lable">
@@ -48,7 +64,7 @@ const ContactForm = () => {
               id="floatingInput2"
               placeholder="name"
               type="text"
-              name="last_name"
+              name="LastName"
               required
             />
             <label htmlFor="floatingInput2" className="float-lable">
@@ -61,11 +77,12 @@ const ContactForm = () => {
               className="form-control"
               id="floatingInput3"
               placeholder="name"
-              name="contact_number"
+              type="email"
+              name="Email"
               required
             />
             <label htmlFor="floatingInput3" className="float-lable">
-              Contact Number
+              Email
             </label>
           </div>
 
@@ -74,20 +91,23 @@ const ContactForm = () => {
               className="form-control"
               id="floatingInput4"
               placeholder="name"
-              name="message"
+              name="Feedback"
               type="text"
             ></textarea>
             <label htmlFor="floatingInput4" className="float-lable">
               Message
             </label>
           </div>
-          <button className="t-btn op-button contact-btn" type="submit">
-            Register
+
+          <button
+            className="t-btn op-button contact-btn"
+            type="submit"
+            disabled={submitting}
+          >
+            {submitting ? "Registering..." : "Register"}
           </button>
         </div>
       </form>
     </div>
   );
-};
-
-export default ContactForm;
+}
