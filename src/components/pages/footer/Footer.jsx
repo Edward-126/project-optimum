@@ -15,10 +15,10 @@ export default function Footer() {
                 </span>{" "}
                 <br /> by{" "}
                 <a
-                  href="https://github.com/Thili-126"
+                  href="https://github.com/Edward-126"
                   className="footer-link main-c"
                 >
-                  T-126
+                  Edward-Hyde
                 </a>
               </p>
             </div>
@@ -27,10 +27,10 @@ export default function Footer() {
                 © 2023 Optimum Gym. All rights reserved. <br /> Designed &
                 Developed by{" "}
                 <a
-                  href="https://github.com/Thili-126"
+                  href="https://github.com/Edward-126"
                   className="footer-link main-c"
                 >
-                  T-126
+                  Edward-Hyde
                 </a>
               </p>
             </div>
