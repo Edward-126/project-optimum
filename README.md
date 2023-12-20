@@ -27,6 +27,6 @@ To explore the Optimum Gym website locally or contribute to its development, fol
 
 ---
 
-Contact Me: [Gmail](rathnayaka3548@gmail.com) &bull; [Instagram](https://www.instagram.com/morningstar_126/)
+Contact Me: [Gmail](edwardhyde20126@gmail.com) &bull; [Instagram](https://www.instagram.com/morningstar_126/)
 
 &copy; 2023 T-126
